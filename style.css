@@ -7,6 +7,48 @@
 
 .container{
     max-width: 400px;
+    background-color: rgb(141, 135, 135);
+    display: block;
+    margin: 12rem auto;
+    text-align: center;
+}
+
+.main-section{
+    padding: 1rem 3rem;
+    border: 5px solid #000;
+}
+
+.main-section h2{
+    margin: 3rem 0 ;
+    color: #fff;
+}
+
+.button-section{
     display: grid;
-    place-content: center;
+    grid-template-columns: auto auto auto auto;
+    grid-row-gap: 12px;
+    grid-column-gap:12px ;
+    margin-bottom: 3rem;
+}
+
+.calc-btn{
+    font-size: 18px;
+    background-color: rgb(49, 84, 197);
+    color: #fff;
+    border: 2px solid #000;
+}
+
+.operators{
+    background-color: rgb(129, 32, 148);
+    font-size: 16px;
+}
+
+.clear{
+    background-color: chocolate;
+    font-size: 16px;
+}
+
+.answer{
+    background-color: rgb(79, 184, 31);
+    font-size: 16px;
 }
