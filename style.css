@@ -1,0 +1,12 @@
+*{
+    padding: 0;
+    margin-top: 0;
+    box-sizing: border-box;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+.container{
+    max-width: 400px;
+    display: grid;
+    place-content: center;
+}
