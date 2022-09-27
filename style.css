@@ -5,6 +5,10 @@
     font-family: 'Bai Jamjuree', sans-serif;
 }
 
+body{
+    overflow-x: hidden;
+}
+
 .container{
     max-width: 400px;
     background-color: rgb(141, 135, 135);
