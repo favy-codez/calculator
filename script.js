@@ -1,2 +1,6 @@
-let answer = document.getElementById("answer")
-let reset = document.getElementById("clear")
+const answer = document.getElementById("answer-space")
+
+
+function reset(){
+    answer.textContent =0
+}
