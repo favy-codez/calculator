@@ -14,23 +14,25 @@
     <div class="container">
         <section class="main-section">
             <h2>CALCULATOR</h2>
+            <div id="answer">0</div>
         <div class="button-section">
-            <button class="calc-btn operators">+</button>
-            <button class="calc-btn operators">-</button>
-            <button class="calc-btn operators">&times;</button>
-            <button class="calc-btn operators">÷</button>
-            <button class="calc-btn">1</button>
-            <button class="calc-btn">2</button>
-            <button class="calc-btn">3</button>
-            <button class="calc-btn">4</button>
-            <button class="calc-btn">5</button>
-            <button class="calc-btn">6</button>
-            <button class="calc-btn">7</button>
-            <button class="calc-btn">8</button>
-            <button class="calc-btn">9</button>
+            <button class="calc-btn operators" onclick="add()">+</button>
+            <button class="calc-btn operators" onclick="sub()">-</button>
+            <button class="calc-btn operators" onclick="mul()">&times;</button>
+            <button class="calc-btn operators" id="divide" onclick="division()">%</button>
+            <button class="calc-btn" onclick="number-btn">1</button>
+            <button class="calc-btn" onclick="number-btn">2</button>
+            <button class="calc-btn" onclick="number-btn">3</button>
+            <button class="calc-btn square-btn" onclick="square()">x <sup>2</sup></button>
+            <button class="calc-btn" onclick="number-btn">4</button>
+            <button class="calc-btn" onclick="number-btn">5</button>
+            <button class="calc-btn" onclick="number-btn">6</button>
+            <button class="calc-btn" onclick="number-btn">7</button>
+            <button class="calc-btn" onclick="number-btn">8</button>
+            <button class="calc-btn" onclick="number-btn">9</button>
             <button class="calc-btn clear">AC</button>
-            <button class="calc-btn">0</button>
-            <button class="calc-btn">.</button>
+            <button class="calc-btn" onclick="number-btn">0</button>
+            <button class="calc-btn" onclick="number-btn">.</button>
             <button class="calc-btn answer">=</button>
         </div>
         </section>
