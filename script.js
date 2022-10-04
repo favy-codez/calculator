@@ -8,11 +8,11 @@ const answer = document.getElementById("answer-space")
 
 // C button
 function reset(){
-    // location.reload()
-    ans
+    // location.reload() (this will allow the user reload the page )
+    answer.textContent =0;
 }
 
-//
+// this allows the user input numbers frm 0-9
 for(let i=0; i<10; i++){
     const buttonId = document.getElementById("btn-" + i)
     buttonId.addEventListener ("click", function(){
@@ -28,6 +28,7 @@ function operate (operator){
     opera=operator;
 }
 
+// create functions for the operators
 function add(){
     operater("+")
 }
@@ -39,4 +40,14 @@ function division(){
 }
 function mul(){
     operater("*")
+}
+
+// answer button
+function answerBtn(){
+    if (check === 1){
+        num2=Number(para);
+        switch(opera){
+            
+        }
+    }
 }
