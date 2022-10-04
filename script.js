@@ -8,7 +8,8 @@ const answer = document.getElementById("answer-space")
 
 // C button
 function reset(){
-    location.reload()
+    // location.reload()
+    ans
 }
 
 //
@@ -18,4 +19,24 @@ for(let i=0; i<10; i++){
         para= para + i;
         answer.innerHTML = para;
     })
+}
+
+function operate (operator){
+    num1=Number(para);
+    para="";
+    check+=1;
+    opera=operator;
+}
+
+function add(){
+    operater("+")
+}
+function sub(){
+    operater("-")
+}
+function division(){
+    operater("/")
+}
+function mul(){
+    operater("*")
 }
