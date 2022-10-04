@@ -8,8 +8,9 @@ const answer = document.getElementById("answer-space")
 
 // C button
 function reset(){
-    // location.reload() (this will allow the user reload the page )
-    answer.textContent =0;
+    location.reload() 
+    // (this will allow the user reload the page )
+    // answer.textContent =0;
 }
 
 // this allows the user input numbers frm 0-9
@@ -47,7 +48,27 @@ function answerBtn(){
     if (check === 1){
         num2=Number(para);
         switch(opera){
-            
+            case "+":
+                ans= num1 + num2;
+                para=""
+                check=0
+                break;
+            case "-":
+                ans= num1 - num2;
+                para=""
+                check=0
+                break;
+            case "/":
+                ans= (num1 / num2).toFixed(5);
+                para=""
+                check=0
+                break;
+            case "*":
+                ans= num1 * num2;
+                para=""
+                check=0
+                break;
         }
     }
+    answer.textContent = ans;
 }
