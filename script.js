@@ -31,16 +31,16 @@ function operate (operator){
 
 // create functions for the operators
 function add(){
-    operater("+")
+    operate("+")
 }
 function sub(){
-    operater("-")
+    operate("-")
 }
 function division(){
-    operater("/")
+    operate("/")
 }
 function mul(){
-    operater("*")
+    operate("*")
 }
 
 // answer button
@@ -59,7 +59,7 @@ function answerBtn(){
                 check=0
                 break;
             case "/":
-                ans= (num1 / num2).toFixed(5);
+                ans= (num1 / num2).toFixed(3);
                 para=""
                 check=0
                 break;
@@ -71,4 +71,9 @@ function answerBtn(){
         }
     }
     answer.textContent = ans;
+}
+
+// decimal part
+function dot(){
+
 }
