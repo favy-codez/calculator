@@ -82,5 +82,6 @@ function answerBtn(){
 
 // decimal part
 function dot(){
-
+    para= para + ".";
+    answer.innerHTML = para;
 }
