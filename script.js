@@ -42,7 +42,9 @@ function division(){
 function mul(){
     operate("*")
 }
-
+function square(){
+    operate("squ")
+}
 // answer button
 function answerBtn(){
     if (check === 1){
@@ -68,6 +70,11 @@ function answerBtn(){
                 para=""
                 check=0
                 break;
+            case "squ":
+                ans= num1 * num1;
+                para=""
+                check=0
+                    
         }
     }
     answer.textContent = ans;
